@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-mean .mean-left img{
+    height: 540px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.main-mean .mean-right img{
+    height: 540px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.mean-left{
+    position: relative;
+}
+.mean-mid{
+    position: relative;
+}
+.mean-mid .describe{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 370px;
+    height: 260px;
+    background: #ffffff;
+    border: 1px solid black;
+}
+/* .mean-mid .describe span.name::before{
+    content: "";
+    position: absolute; 
+    width: 100%;
+    height: 20px;
+    bottom: 10px;
+    left: 0;
+    background-color: #ecd4af;
+    opacity: 0.4;
+    z-index: -1;
+
+} */
+
+.main-mean .mean-left .describe{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    max-width: 300px;
+}
+.mean-right{
+    position: relative;
+}
+.main-mean .mean-right .describe{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    max-width: 300px;
+}
+.main-mean .mean-left .describe p{
+    margin: 20px;
+}
+.main-mean{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-mean .mean-mid img{
+    height: 540px;
+    width: 622px;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
+
