@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap');
+body{
+    font-family: "Public Sans",sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+.main-menu .banner{
+    background-image: url(/img/main-menu/4.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 133px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.main-menu .banner button{
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
+.main-menu .banne h1{
+    margin-top: -10px;
+}
+.main-menu{
+    position: relative;
+    transition: 0.3s ;
+}
+.main-menu:hover{
+    cursor: pointer;
+    animation: flash  ease-in 1s;
+}
+@keyframes flash{
+    0%{
+        opacity: 0.4;
+        transition: 0.3s ease-in-out;
+    }
+    100% {
+        opacity: 1;
+        transition: 0.3s ease-in-out;
+    }
+
+    
+}

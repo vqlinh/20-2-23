@@ -9,6 +9,7 @@
     height: 600px;
     background-color: #f8f8f8;
     z-index: 1;
+    margin-top: 100px;
 }
 .footer-space{
     max-width: 83%;

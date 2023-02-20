@@ -1,20 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap');
+body{
+    font-family: "Public Sans",sans-serif;
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: "Public Sans",sans-serif;
-}
 
-.main-space{
-    max-width: 83%;
-    margin: 0 auto ;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    height: 500px;
-}
+
 
 .dropbtn {
     background-color: #222;
@@ -37,7 +31,7 @@ body{
   .dropdown {
     position: relative;
     display: inline-block;
-    z-index: 100; 
+    z-index: 10; 
     transition: 0.3s ease-in-out;
 
   }
