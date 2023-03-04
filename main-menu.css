@@ -7,7 +7,7 @@ body{
     margin: 0;
 box-sizing: border-box;
 }
-.main-menu .banner{
+.main-adv .banner{
     background-image: url(/img/main-menu/4.jpg);
     background-size: cover;
     background-position: center center;
@@ -22,19 +22,19 @@ box-sizing: border-box;
     flex-direction: column;
     
 }
-.main-menu .banner button{
+.main-adv .banner button{
     outline: none;
     border: none;
     margin-top: 10px;
 }
-.main-menu .banne h1{
+.main-adv .banne h1{
     margin-top: -10px;
 }
-.main-menu{
+.main-adv{
     position: relative;
     transition: 0.3s ;
 }
-.main-menu:hover{
+.main-adv:hover{
     cursor: pointer;
     animation: flash  ease-in 1s;
 }
